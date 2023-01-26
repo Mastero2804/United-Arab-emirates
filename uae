@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>uae</title>
+<link href="UAE.css" rel="stylesheet" type="text/css">
+</head>
+<br><br>
+<body style="background-image: url('file:///C|/Users/Olivier000037811/Downloads/UAE/uae1.3.jpg');">
+	 
+	<nav>
+		 <a href="#home" class="button">UAE</a>
+		  <a href="#history" class="button"> History</a>
+		  <a href="#agriculture" class="button">agriculture</a>
+		  <a href="#cities" class="button">cities</a>
+		  <a href="#culture" class="button">culture</a>
+	</nav>
+ <main class="name">United Arab Emirates(UAE)
+	</main>
+	
+ 
+	  
+	
+</body>
+	<footer style="text-align: center;"> <p> ITW production<br>Olivier Magloire<br>2022-2023 </p></footer>
+</html>
+
+_css
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	font-family: arial;
+	font-size: 100%;
+}
+
+body {
+	background-color: url("C:\Users\Olivier000037811\Downloads\UAE\flag.jpg");
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+	background-color: rgba(115, 128, 183, 0.4);
+	justify-content:center;
+	width: 40vw;
+	margin: auto;
+	text-align: center;
+	text-decoration: none;
+	height: 10vh;
+	width: 50%
+}
+
+.button  {
+	flex: 1;;
+}
+
+a:link {
+text-decoration: none;
+color: #fff;
+}
+
+a:visited {
+	
+}
+
+
+h1{
+	 
+	
+	 
+}
+
+.flex-container > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 20px;
+  font-size: 70px;
+}
+footer{
+	background-color: #ffcf6a;
+	background: rgba( 255,207,106,0.6);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	
+}
+ 
+.left{
+	float:left;
+}
+
+.name {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-size: 300%;
+	font-family: "Arial Black";
+	color: white;
+}
